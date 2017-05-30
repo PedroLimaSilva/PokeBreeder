@@ -1,15 +1,18 @@
-import { TestBed, async } from '@angular/core/testing';
+/* tslint:disable:no-unused-variable */
 
+import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { RouterModule, Routes } from '@angular/router';
 
 describe('AppComponent', () => {
-  beforeEach(async(() => {
+  beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
       ],
-    }).compileComponents();
-  }));
+    });
+    TestBed.compileComponents();
+  });
 
   it('should create the app', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
