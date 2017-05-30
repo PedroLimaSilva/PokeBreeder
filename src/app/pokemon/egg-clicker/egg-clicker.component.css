@@ -1,0 +1,13 @@
+.egg{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url("/assets/img/sprites/eggs.png");
+    transform-origin: top;
+    transform: scale(5);
+}
+
+.hatched{
+    transform-origin: top;
+    transform: scale(3);
+}

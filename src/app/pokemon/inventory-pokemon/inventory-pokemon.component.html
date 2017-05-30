@@ -1,0 +1,4 @@
+<div class="container">
+  <pokemon-item *ngFor="let pokemon of pokemon_list" [pokemon]="pokemon" (click)="selectPokemon(pokemon)"></pokemon-item>
+</div>
+<pokemon-detail [pokemon]="selected" (dismiss)="hideDetail()"></pokemon-detail>

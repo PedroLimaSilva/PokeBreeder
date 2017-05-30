@@ -1,0 +1,9 @@
+<div class="detail-container" [ngClass]="{'open': pokemon}">
+  Pokemon details here
+  <button type="button" class="close" aria-label="Close" (click)="close()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <div class="detail-header">
+    <img src="{{pokemon?.sprite}}" alt="">
+  </div>
+</div>

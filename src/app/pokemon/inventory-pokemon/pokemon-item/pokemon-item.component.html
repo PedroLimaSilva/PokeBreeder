@@ -1,0 +1,8 @@
+<div class="pokemon-container">
+  <ng-container *ngIf="pokemon.id">
+    <div class="image-container">
+      <img [src]=sprite alt="{{pokemon.name||'????'}}" title="{{pokemon.name||'????'}}">
+    </div>
+    <div>{{pokemon.name || "????"}}</div>
+  </ng-container>  
+</div>

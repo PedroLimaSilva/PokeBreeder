@@ -1,0 +1,3 @@
+<h1>{{egg.clicks}}</h1>
+<div *ngIf="egg.clicks" class="egg" [ngStyle]="style" (click)="clickEgg(1)"></div>
+<img *ngIf="!egg.clicks" class="hatched" [src]=hatched_sprite>
